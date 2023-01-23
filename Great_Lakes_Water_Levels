@@ -49,7 +49,10 @@ plt.plot(eerie['time'], eerie['water level'])
 # Using the Ontario Dataset, plot the Water Level, the second column, 
 # as a function of time years
 
+ont= pd.read_csv('https://raw.githubusercontent.com/msu-cmse-courses/cmse202-S23-data/main/day_04/ont.csv')
 
+
+plt.plot(ont)
 
 # PART 5
 # Using the Michigan/Huron and Superior Datasets, plot the 
