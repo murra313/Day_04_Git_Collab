@@ -40,6 +40,9 @@ plt.ylabel('Lake Levels')
 # Using the Erie Dataset, plot the Water Level, the second column, 
 # as a function of time years
 
+eerie =  pd.read_csv('eri.csv')
+plt.plot(eerie['time'], eerie['water level'])
+
 
 
 # PART 4
